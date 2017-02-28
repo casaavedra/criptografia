@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="Msis4101.Esteganografia.py" />
   </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{074705d9-c712-4658-8c40-112838719327}\2.7" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
