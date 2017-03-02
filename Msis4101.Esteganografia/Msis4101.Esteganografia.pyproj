@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37a6f25a-1c33-4b11-9278-823ae81282a2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Msis4101.Esteganografia.py</StartupFile>
+    <StartupFile>decode.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Msis4101.Esteganografia.py" />
+    <Compile Include="decode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="encode.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{074705d9-c712-4658-8c40-112838719327}\2.7" />
